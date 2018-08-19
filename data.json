@@ -1,0 +1,53 @@
+{
+	 "basis":{
+	 	"name":"janaki",
+	 	"role":"mean-stack",
+	 	"mobile":"+91 3456782956",
+	 	"email":"janakidegala123@gmail.com"
+	 },
+	 "career":{
+	 	"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+		{
+			"Degree":"B.Tech(computer science &engineering)",
+             "Institute":"vignan Nirula",
+             "Data":["2016-20","82%"]
+		},
+		
+		{
+			"Degree":"Intermediate(mpc)",
+             "Institute":"vignan ",
+             "Data":["2014-16","85%"]
+		},
+		{
+			"Degree":"S.S.C",
+             "Institute":"vignan ",
+             "Data":["2013-14","90%"]
+		}
+
+	],
+	"skills":[
+         {
+         	"title":"programming languages",
+         	"content":["python","c","java","R","c++"]
+         },
+
+          {
+         	"title":"Data bases",
+         	"content":["Sql","Oracle","mySql"]
+         },
+
+          {
+         	"title":"Web Technologies",
+         	"content":["HTML","XML","Javascript"]
+         },
+          {
+         	"title":"operating systems",
+         	"content":["Windows","Unix","Linux"]
+         }
+	]
+
+	
+
+}

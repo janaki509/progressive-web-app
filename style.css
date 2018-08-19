@@ -1,0 +1,158 @@
+table{
+	width:100%;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 3px #ddd;
+
+}
+tr:nth-child(even){
+	background: #ddd;
+}
+td,
+ th{
+	padding:1%;
+}
+.skDiv{
+	width: 100%;
+	border-left:3px solid #0E4DBA; 
+	padding: 1%;
+	margin: 1%;
+
+}
+span{
+	background: #0E4DBA;
+	color:#fff;
+	border: 1px solid #082D6E;
+	box-shadow: 3px 3px 3px #ddd;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+
+.parent
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	
+	width:40%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+
+}
+.child2{
+	width:70%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+}
+.profile{
+	width:200px;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+h2
+{
+	text-align: center;
+	color: #ad4f3b;
+}
+a{
+	text-decoration: none;
+	font-size: 15px;
+}
+/*Small screens*/
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.parent
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background: yellow;
+
+}
+.child2{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background: black;
+}
+
+}
+/*Medium screens*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+		.parent
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background: pink;
+
+}
+.child2{
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background:#E9F2EE;
+}
+*{
+	font-size: 20px;
+}
+
+}
+/*Large screens*/
+@media only screen and (min-width:769px) and (max-width: 1024px){
+		.parent
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	
+	
+	
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background: gray;
+
+
+}
+.child2{
+	background: #2d4cd6;
+			color: #fff;
+	width:100%;
+	border: 1px solid #ddd;
+	padding:1%;
+	margin: 1%;
+	background: red;
+}
+
+
+}
+
+
+
